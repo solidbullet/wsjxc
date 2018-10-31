@@ -29,8 +29,10 @@
 		  <th>卖价</th>
 		  <th>折扣</th>
 		  <th>单位</th>
-		  <th>起卖数量</th>
+		  <th>生产厂家</th>
 		  <th>详情</th>
+		  <th>删除产品</th>
+		  
 
 		</tr>
 	  </thead>
@@ -44,9 +46,9 @@
 		  <td>{{ x.Origin_price}}</td>
 		  <td>{{ x.Discount}}</td>
 		  <td>{{ x.Unit }}</td>
-		  <td>{{ x.Min_num}}</td>
-		  <td>{{ x.Id}}</td>
-
+		  <td>{{ x.Factory}}</td>
+		  <td><a href="http://127.0.0.1:8080/product/detail?productid={{x.Id}}">查看详情</a></td>
+		  <td><a href="http://127.0.0.1:8080/product/delete?productid={{x.Id}}">删除</a></td>
 		</tr>
 
 	  </tbody>

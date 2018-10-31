@@ -22,8 +22,8 @@
 	<!-- 表示一个成功的或积极的动作 -->
 	<button type="button" class="btn btn-success">库存管理</button>
 	<!-- 信息警告消息的上下文按钮 -->
-	<a type="button" class="btn btn-warning" href="/productShow">产品管理</a>
-	<a type="button" class="btn btn-info" href="/product">产品录入</a>
+	<a type="button" class="btn btn-warning" href="/product/productShow">产品管理</a>
+	<a type="button" class="btn btn-info" href="/product/insert">产品录入</a>
 	
 	<!-- 表示应谨慎采取的动作 
 	<button type="button" class="btn btn-danger">警告按钮</button>danger

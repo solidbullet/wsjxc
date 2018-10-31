@@ -17,11 +17,21 @@ type User struct {
 type Product struct {
 	Id           int
 	Name         string
+	Classify     string
+	Taste        string
+	Factory      string
+	Prize        string
+	Compose      string
+	Effect       string
+	Fit          string
+	Method       string
 	Order_price  float64 //订货价
 	Origin_price float64 //原始价
 	Discount     float64 //折扣
 	Min_num      int     //起订数量
+	Standard     string
 	Unit         string
+	Info         string
 }
 type Customer struct {
 	Id    int
